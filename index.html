@@ -11,29 +11,16 @@
   <meta property="og:image" content="img/logo.webp">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;800&display=swap">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-  <header>
-    <h1>Собери Руслана</h1>
-    <div class="hud">
-      <span id="hLv"></span><span>Время <b id="hT">0:00</b></span><span>Ходы <b id="hM">0</b></span><span
-        id="hPw">Собрано <b id="hP">0</b></span>
-    </div>
-  </header>
-  <div id="stage"></div>
-  <div class="controls">
-    <button class="btn ghost" id="bRot" hidden>Повернуть выбранный (R)</button>
-    <button class="btn ghost" id="bGive">Сдаться: любимое занятие</button>
-    <button class="btn ghost" id="bSnd">Звук: вкл</button>
-    <div class="tip" id="tip"></div>
-  </div>
-  <div class="ov" id="ov">
-    <div class="card" id="card"></div>
-  </div>
-  <div id="toast"></div>
-  
-  <script src="main.js"></script>
+  <main class="home">
+    <img class="logo" src="img/logo.webp" width="900" height="900" alt="Собери Руслана: Руслан показывает большой палец на фоне пазлов">
+    <h1>Онлайн-игра в пазл</h1>
+    <p>Собери по кусочкам четыре фото Руслана. Готовой картинки нет, зато есть повороты и таймер.</p>
+    <a class="btn play" href="game.html">Играть</a>
+  </main>
 </body>
 
 </html>
