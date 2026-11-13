@@ -158,5 +158,4 @@ $('bRot').onclick = rotSel;
 addEventListener('keydown', e => { if ((e.key === 'r' || e.key === 'R' || e.key === 'к' || e.key === 'К')) rotSel() });
 
 /* --- старт --- */
-showOv(`<h2>Собери Руслана</h2><p class="big">4 фото. 0 подсказок. 1 лентяй.</p><p>Готовой картинки нигде не будет: собирай по памяти.</p><button class="btn" id="st">Играть</button>`);
-$('st').onclick = () => startLevel(0);
+startLevel(0);
